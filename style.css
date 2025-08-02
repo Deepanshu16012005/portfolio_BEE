@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+
+}
+.wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+
+}
+.logo{
+    width: 70px;
+}
+.logo-text{
+    margin-left: -1.2rem;
+    font-size: 28px;
+}
+.logo-container{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    gap: 2rem;
+    padding: 0 2em;
+}
+.nav-items div{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-items div a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items div:hover{
+    font-weight: bold;
+    transition: all 2s;
+}
